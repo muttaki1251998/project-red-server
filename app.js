@@ -24,7 +24,8 @@ const app = express();
 
 // List of allowed origins
 const allowedOrigins = [
-  'http://localhost:3000'
+  'http://localhost:3000',
+  'https://scholarbangla.vercel.app'
 ];
 
 // CORS configuration
