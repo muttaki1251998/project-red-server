@@ -1,0 +1,15 @@
+runtime: nodejs20
+instance_class: F1
+env_variables:
+  MONGODB_URI: 'mongodb+srv://muttakii:1251998@cluster0.etv0jie.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+  PORT: '8080'
+  ORION_CANVA_EMAIL: 'orioncanvaoffice@gmail.com'
+  OPENAI_API_KEY: 'sk-proj-pkB17WAWvo52RQKjMiEtT3BlbkFJFiUyg1fEz1aFizQxe9hZ'
+  FB_API: 'EAAhubo9440QBO1JnO8tjiK4S0dhZCqqRQmZAirEimQktMZBTPZBcOvmBOMgMxThRkEcGeUAC9OmFXxNliR24MfIluOZBblgMxdGRhtdjiY8lHD1DXZBwtZCdZBxe1c9QnWZCuD8SVZAL6nTAqh0Ax1DQ3JNKs3yr5FaDW2tWXmPuVnugU7xeoYxCzADVafm0tn5XJKvGSZCnG5GLvOJLZARFilb12jmgKrk9dePeVdCoZAIaH'
+  FB_APP_ID: '2373220946207556'
+  FB_SECRET_ID: '8e4db38eae2d394007023777e2e92fe1'
+  SEND_GRID_API_KEY: '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'
+
+handlers:
+  - url: /.*
+    script: auto
